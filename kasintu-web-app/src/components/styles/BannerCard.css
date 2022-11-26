@@ -1,0 +1,116 @@
+.bannercard-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bannercard-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 3px solid var(--blue-primary);
+    text-align: center;
+    border-radius: 15px;
+    background-image: url('/src/img/banner-background-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 40px var(--blue-secondary);
+}
+
+.bannercard-item-moreinfo {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 3.6rem;
+    color: var(--grey-primary);
+    text-align: right;
+    padding-right: 20px;
+    height: 110px;
+}
+
+.bannercard-item-moreinfo svg {
+    border-radius: 50%;
+    background-color: var(--blue-primary);
+}
+
+.banner-info-tooltip {
+    color: var(--white-primary);
+    text-align: center;
+}
+
+.banner-info-tooltip .banner-info-table tr,
+.banner-info-tooltip .banner-info-table td,
+.banner-info-tooltip .banner-info-table th {
+    font-size: 1rem;
+    border: 1px solid var(--white-secondary);
+    padding: 0 10px;
+}
+
+.bannercard-item-title {
+    grid-area: 2 / 1 / 3 / 3;
+    font-family: 'Aclonica';
+}
+
+.bannercard-item-one {
+    grid-area: 3 / 1 / 4 / 2;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannercard-item-ten {
+    grid-area: 3 / 2 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannercard-item-one a,
+.bannercard-item-ten a {
+    text-decoration: none;
+    width: 100%;
+    background-color: var(--blue-fourth);
+    color: var(--blue-primary);
+    border: 4px solid var(--blue-primary);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.bannercard-item-one-info,
+.bannercard-item-ten-info{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.bannercard-item-one-coin,
+.bannercard-item-ten-coin{
+    font-size: 1.4rem;
+}
+
+.bannercard-item-one a:hover,
+.bannercard-item-ten a:hover {
+    background-color: var(--blue-tertiary);
+    color: var(--blue-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.bannercard-item-one a:active,
+.bannercard-item-ten a:active {
+    background-color: var(--blue-secondary);
+    color: var(--white-secondary);
+}
+
+.banner-tooltip-on-hover {
+    pointer-events: auto !important;
+}
+
+.banner-tooltip-on-hover:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+}

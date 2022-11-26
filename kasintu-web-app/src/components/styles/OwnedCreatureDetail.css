@@ -1,0 +1,120 @@
+.owned-creature-detail {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.owned-creature-detail-container {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "card information";
+}
+
+.owned-creature-detail-card {
+    grid-area: card;
+}
+
+.owned-creature-detail-card, .owned-creature-detail-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owned-creature-detail-information {
+    grid-area: information;
+    font-size: 1.2rem;
+
+    display: grid;
+    grid-template-columns: 0.4fr 3fr;
+    grid-template-areas:
+        "name name-input"
+        "rarity rarity-input";
+    
+}
+
+.owned-creature-detail-name, .owned-creature-detail-rarity{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.owned-creature-detail-name-input, .owned-creature-detail-rarity-input{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.owned-creature-detail-name, .owned-creature-detail-name-input {
+    justify-content: flex-end;
+}
+
+.owned-creature-detail-rarity, .owned-creature-detail-rarity-input {
+    justify-content: flex-start;
+}
+
+.owned-creature-detail-description, .owned-creature-detail-description-input {
+    font-size: 1.2rem;
+}
+
+.owned-creature-detail-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.owned-creature-detail-description-input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-left: 3px solid var(--blue-primary);
+    padding-left: 8px;
+    color: black;
+}
+
+.owned-creature-detail-back-button, .owned-creature-detail-delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: var(--blue-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.owned-creature-detail-back-button a, .owned-creature-detail-delete-button a {
+    text-decoration: none;
+    background-color: var(--blue-fourth);
+    color: var(--blue-primary);
+    border: 2px solid var(--blue-primary);
+    border-radius: 5px;
+    padding: 0 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.owned-creature-detail-back-button a:hover, .owned-creature-detail-delete-button a:hover {
+    background-color: var(--blue-tertiary);
+    color: var(--blue-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.owned-creature-detail-back-button a:active, .owned-creature-detail-delete-button a:active {
+    background-color: var(--blue-secondary);
+    color: var(--white-secondary);
+}

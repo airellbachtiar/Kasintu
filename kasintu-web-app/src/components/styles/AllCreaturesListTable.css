@@ -1,0 +1,29 @@
+.creature-list-table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.creature-list-table tr, .creature-list-table td, .creature-list-table th{
+    font-size: 1.4rem;
+    border: 1px solid var(--white-secondary);
+    padding:0 40px 0 10px;
+    background-color: var(--blue-secondary);
+
+}
+
+.creature-list-table th{
+    text-align: center;
+    color: var(--white-primary);
+    background-color: var(--blue-primary);
+}
+
+.creature-list-table a{
+    text-decoration: none;
+    color: var(--white-primary);
+}
+
+.creature-list-table a:hover{
+    color: var(--blue-tertiary);
+}

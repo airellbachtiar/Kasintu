@@ -1,0 +1,36 @@
+What is this game?
+A collection based game, user can collect as many character (in this case a kind of aves creatures) as they want
+They can get this creature mainly from gacha system (user can "summon" and have a chance to get a creatures) or a market place where they can buy, sell, or even trade
+
+In this game, creature will be based on aves family (bird) with additional fictional aves like dragon and stuff
+It will implement rating system such as common, uncommon and up to mystical or legendary as the rarest rarity
+
+It could implement one or more element such as water, fire or wind mainly for pvp or pve and/or breeding
+
+For a additional feature, player can attack an event enemy to get extra reward
+Player can also breed creatures to get new type of creature
+
+How to play this game?
+User has to create new account in order to play
+For starter, they will be given a money that they can spend to summon/buy creatures
+After player get the creature, they can get access to more feature
+
+User Story:
+1. Register account //Not priorotize
+2. Get initial cash or they can top up using real money
+3. Cash given is enough to summon a couple of times and/or get it from market place
+4. After player get enough creatures (min. 2 for possibly breeding) they can attack a monster or make more profit from their creature in the market place
+
+User Story, for catching(gacha)
+
+
+Minutes Meeting 
+Attandees: Tim Kurves and Airell Rasendriya Bachtiar
+Location: Microsoft Teams
+Date: 10, February 2022
+Time: 9:00 - 9:15
+
+Discussion:
+1. Individual Assignment Idea, collection game
+Feedback:
+Good idea. When making the project, focus on 1 feature at the time. Make a user story. Creating account is not the prioritize.

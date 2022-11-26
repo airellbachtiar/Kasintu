@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # db:
+  #   image: mysql
+  #   ports:
+  #     - '3307:3306'
+  #   restart: always
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: 'root'
+  #     MYSQL_DATABASE: 'kasintu'
+  #   profiles: ["db"]
+
+  # backend:
+  #   build: 
+  #     context: kasintu
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - '8080:8080'
+  #   restart: always
+  #   environment:
+  #     - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/kasintu
+  #     - SPRING_DATASOURCE_PASSWORD=root
+  #   # profiles: ["backend"]
+    
+  frontend:
+    build:
+      context: kasintu-web-app
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    restart: always
+    # profiles: ["frontend"]
+
+  # backendtest:
+  #   build: 
+  #     context: kasintu
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - '8080:8080'
+  #   restart: always
+  #   depends_on:
+  #     - db
+  #   environment:
+  #     - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/kasintu_test
+  #     - SPRING_DATASOURCE_PASSWORD=root
+  #   profiles: ["backendtest"]

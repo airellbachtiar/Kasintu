@@ -1,0 +1,134 @@
+.user-access-form{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    border: 3px solid var(--blue-primary);
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 500px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/img/useraccess-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding-top: 7%;
+    font-size: 1.6rem;
+}
+
+.user-access-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.user-access-form .user-access-container .button-container .button-login-active, .user-access-form .user-access-container .button-container .button-register-active{
+    background-color: var(--blue-primary);
+    color: var(--white-secondary);
+    cursor: default;
+}
+
+.user-access-form .user-access-container .button-container .button-login-active, .user-access-form .user-access-container .button-container .button-login{
+    border-radius: 15px 0 0 15px;
+}
+
+.user-access-form .user-access-container .button-container .button-register-active, .user-access-form .user-access-container .button-container .button-register{
+    border-radius: 0 15px 15px 0;
+}
+
+.user-access-form .user-access-container .button-container .button-login, .user-access-form .user-access-container .button-container .button-register{
+    background-color: var(--blue-fourth);
+    color: var(--blue-primary);
+    cursor: pointer;
+}
+
+.user-access-form .user-access-container .button-container .button-login:hover, .user-access-form .user-access-container .button-container .button-register:hover{
+    background-color: var(--blue-tertiary);
+}
+
+.user-access-form .user-access-container .button-container .button-login, 
+.user-access-form .user-access-container .button-container .button-register, 
+.user-access-form .user-access-container .button-container .button-login-active, 
+.user-access-form .user-access-container .button-container .button-register-active{
+    border: 2px solid var(--blue-primary);
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.register-form-content, .login-form-content{
+    width: 250px;
+    height: 100%;
+}
+
+.register-form-content-input, .login-form-content-input{
+    margin-top: 20px;
+}
+
+.register-form-content-input .form-control, .login-form-content-input .form-control{
+    border: 2px solid var(--blue-secondary);
+    color: var(--blue-primary);
+    box-shadow: 0px 10px 50px 0px var(--blue-primary);
+    border-radius: 10px;
+}
+
+.register-form-content-input .form-floating, .login-form-content-input .form-floating{
+    color: var(--blue-primary);
+}
+
+.login-form-content-button, .register-form-content-button{
+    position: absolute;
+    bottom: 0.4rem;
+    right: 50%;
+    transform: translate(50%,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.login-form-content-button .button-login, .register-form-content-button .button-register{
+    width: 100%;
+    background-color: var(--blue-fourth);
+    color: var(--blue-primary);
+    border: 2px solid var(--blue-primary);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login-form-content-button .button-login:hover, .register-form-content-button .button-register:hover{
+    background-color: var(--blue-tertiary);
+    color: var(--blue-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-form-content-button .button-login:active, .register-form-content-button .button-register:active{
+    background-color: var(--blue-secondary);
+    color: var(--white-secondary);
+}
+
+.user-access-form-loading, .user-access-form-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.user-access-form-error{
+    color: red;
+}

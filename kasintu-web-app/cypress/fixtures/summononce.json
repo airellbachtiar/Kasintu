@@ -1,0 +1,12 @@
+[
+    {
+        "creatureID": "c11e3f5b89be41299c8d1d173928b10a",
+        "name": "Hummingbird",
+        "rarity": {
+            "rarityID": "6592898342b74db0a3cfa400f44044e9",
+            "rarityType": "Uncommon",
+            "rarityLevel": 2
+        },
+        "description": null
+    }
+]

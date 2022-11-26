@@ -1,0 +1,66 @@
+[
+    {
+        "creatureID": "b63032a9c18f44c08e45159341ebe2a7",
+        "name": "Penguin",
+        "rarity": {
+            "rarityID": "6592898342b74db0a3cfa400f44044e9",
+            "rarityType": "Uncommon",
+            "rarityLevel": 2
+        },
+        "description": null
+    },
+    {
+        "creatureID": "4f8682ed54494d97a98800054186bdda",
+        "name": "Raven",
+        "rarity": {
+            "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+            "rarityType": "Common",
+            "rarityLevel": 1
+        },
+        "description": null
+    },
+    {
+        "creatureID": "8c6be0fe31e14e8ca2f821ad13246ab5",
+        "name": "Bird of Paradise",
+        "rarity": {
+            "rarityID": "1e2473bbf867434a9f78e1a22286f0cd",
+            "rarityType": "Epic",
+            "rarityLevel": 4
+        },
+        "description": ""
+    },
+    {
+        "creatureID": "d218d2d592b540fe9a9ec11fa12a95bf",
+        "name": "Dove",
+        "rarity": {
+            "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+            "rarityType": "Common",
+            "rarityLevel": 1
+        },
+        "description": null
+    },
+    null,
+    null,
+    null,
+    {
+        "creatureID": "a7f5b6dcab294856930dee133fb0c62b",
+        "name": "Duck",
+        "rarity": {
+            "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+            "rarityType": "Common",
+            "rarityLevel": 1
+        },
+        "description": null
+    },
+    {
+        "creatureID": "7cfb9bcb5ba34ce3bfed7f8b4dcc2ef2",
+        "name": "Chicken",
+        "rarity": {
+            "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+            "rarityType": "Common",
+            "rarityLevel": 1
+        },
+        "description": "This is a chicken."
+    },
+    null
+]

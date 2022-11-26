@@ -1,0 +1,10 @@
+{
+    "creatureID": "7cfb9bcb5ba34ce3bfed7f8b4dcc2ef2",
+    "name": "Chicken",
+    "rarity": {
+        "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+        "rarityType": "Common",
+        "rarityLevel": 1
+    },
+    "description": "This is a chicken."
+}

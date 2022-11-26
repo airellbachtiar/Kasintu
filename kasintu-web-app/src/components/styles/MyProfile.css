@@ -1,0 +1,114 @@
+.myprofile{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    border: 3px solid var(--blue-primary);
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 500px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/img/useraccess-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.myprofile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.myprofile-header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding-top: 7%;
+    width: 100%;
+    text-align: center;
+}
+
+.myprofile-header h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--blue-tertiary);
+}
+
+.myprofile-content{
+    width: 250px;
+    height: 100%;
+}
+
+.myprofile-content-input{
+    margin-top: 20px;
+}
+
+.myprofile-content-input .form-control{
+    border: 2px solid var(--blue-secondary);
+    color: var(--blue-primary);
+    box-shadow: 0px 10px 50px 0px var(--blue-primary);
+    border-radius: 10px;
+}
+
+.myprofile-content-input .form-floating{
+    color: var(--blue-primary);
+}
+
+.myprofile-footer{
+    position: absolute;
+    bottom: 0.4rem;
+    right: 50%;
+    transform: translate(50%,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.myprofile-footer button{
+    width: 100%;
+    background-color: var(--blue-fourth);
+    color: var(--blue-primary);
+    border: 2px solid var(--blue-primary);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myprofile-footer button:hover{
+    background-color: var(--blue-tertiary);
+    color: var(--blue-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.myprofile-footer button:active{
+    background-color: var(--blue-secondary);
+    color: var(--white-secondary);
+}
+
+.myprofile-content-switch{
+    color: var(--blue-primary);
+    font-weight: bold;
+}
+
+.myprofile-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+.summon-login-error a{
+    color: red;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.summon-login-error a:hover{
+    color: orange;
+    transition: 300ms;
+}
+
+.summon-login-error a:active{
+    color: yellow;
+}

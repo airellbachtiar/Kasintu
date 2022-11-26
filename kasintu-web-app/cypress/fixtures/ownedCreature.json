@@ -1,0 +1,14 @@
+{
+    "creature": {
+        "creatureID": "b095370f21f343faa99a2ae991f07c88",
+        "name": "Owl",
+        "rarity": {
+            "rarityID": "655150a94e1d4236a084124234c57168",
+            "rarityType": "Rare",
+            "rarityLevel": 3
+        },
+        "description": null
+    },
+    "ownedCreatureID": "09d57f25ffbd46c7876580f94a889807",
+    "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+}

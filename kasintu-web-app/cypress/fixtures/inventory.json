@@ -1,0 +1,258 @@
+{
+    "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5",
+    "playerID": "279f286d4ddf4317b6b45d66d0442889",
+    "ownedCreatures": [
+        {
+            "creature": {
+                "creatureID": "b095370f21f343faa99a2ae991f07c88",
+                "name": "Owl",
+                "rarity": {
+                    "rarityID": "655150a94e1d4236a084124234c57168",
+                    "rarityType": "Rare",
+                    "rarityLevel": 3
+                },
+                "description": null
+            },
+            "ownedCreatureID": "09d57f25ffbd46c7876580f94a889807",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "b63032a9c18f44c08e45159341ebe2a7",
+                "name": "Penguin",
+                "rarity": {
+                    "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                    "rarityType": "Uncommon",
+                    "rarityLevel": 2
+                },
+                "description": null
+            },
+            "ownedCreatureID": "1ca77ed3122d4075a85b0b041eac3aca",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "cc463a07f4e842b9bbd1abfa182a6faf",
+                "name": "Blue Jay",
+                "rarity": {
+                    "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                    "rarityType": "Uncommon",
+                    "rarityLevel": 2
+                },
+                "description": null
+            },
+            "ownedCreatureID": "24ad027da5fc40218be5fb526348ea17",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "8c6be0fe31e14e8ca2f821ad13246ab5",
+                "name": "Bird of Paradise",
+                "rarity": {
+                    "rarityID": "1e2473bbf867434a9f78e1a22286f0cd",
+                    "rarityType": "Epic",
+                    "rarityLevel": 4
+                },
+                "description": ""
+            },
+            "ownedCreatureID": "349e41dcda844a8a809a33b3069aad22",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "72622d6ed0bc4c528f8f8690e5afd74d",
+                "name": "Pigeon",
+                "rarity": {
+                    "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                    "rarityType": "Common",
+                    "rarityLevel": 1
+                },
+                "description": null
+            },
+            "ownedCreatureID": "4c76143c408e4b1b98986273f932d32d",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "c64fe9873ce745f8a93069e637bf88aa",
+                "name": "Eagle",
+                "rarity": {
+                    "rarityID": "6cbce3350c46416d87bbbb5fec8e9012",
+                    "rarityType": "Legendary",
+                    "rarityLevel": 5
+                },
+                "description": null
+            },
+            "ownedCreatureID": "7202a7db44874966a286d90c152e44a9",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "f391c5062b414ac5b36a100a1b57be06",
+                "name": "Ostrich",
+                "rarity": {
+                    "rarityID": "655150a94e1d4236a084124234c57168",
+                    "rarityType": "Rare",
+                    "rarityLevel": 3
+                },
+                "description": null
+            },
+            "ownedCreatureID": "83e8b54df5624c27bc916ff92560f353",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "c11e3f5b89be41299c8d1d173928b10a",
+                "name": "Hummingbird",
+                "rarity": {
+                    "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                    "rarityType": "Uncommon",
+                    "rarityLevel": 2
+                },
+                "description": null
+            },
+            "ownedCreatureID": "af0f105012ac4b87b2a98f6917ed3d55",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "b095370f21f343faa99a2ae991f07c88",
+                "name": "Owl",
+                "rarity": {
+                    "rarityID": "655150a94e1d4236a084124234c57168",
+                    "rarityType": "Rare",
+                    "rarityLevel": 3
+                },
+                "description": null
+            },
+            "ownedCreatureID": "b6539dfef52f4555970f88b5279b7d18",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "b63032a9c18f44c08e45159341ebe2a7",
+                "name": "Penguin",
+                "rarity": {
+                    "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                    "rarityType": "Uncommon",
+                    "rarityLevel": 2
+                },
+                "description": null
+            },
+            "ownedCreatureID": "bdc51e70838245f1bf72f3713775d70f",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "c64fe9873ce745f8a93069e637bf88aa",
+                "name": "Eagle",
+                "rarity": {
+                    "rarityID": "6cbce3350c46416d87bbbb5fec8e9012",
+                    "rarityType": "Legendary",
+                    "rarityLevel": 5
+                },
+                "description": null
+            },
+            "ownedCreatureID": "bf4cb5787ee841df9f72a8900f16bf60",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "4f8682ed54494d97a98800054186bdda",
+                "name": "Raven",
+                "rarity": {
+                    "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                    "rarityType": "Common",
+                    "rarityLevel": 1
+                },
+                "description": null
+            },
+            "ownedCreatureID": "c1bd75878b304df2848251d560e92fa4",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "72622d6ed0bc4c528f8f8690e5afd74d",
+                "name": "Pigeon",
+                "rarity": {
+                    "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                    "rarityType": "Common",
+                    "rarityLevel": 1
+                },
+                "description": null
+            },
+            "ownedCreatureID": "cb8b4618a2e641ffbcf956bc13d22b75",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "f391c5062b414ac5b36a100a1b57be06",
+                "name": "Ostrich",
+                "rarity": {
+                    "rarityID": "655150a94e1d4236a084124234c57168",
+                    "rarityType": "Rare",
+                    "rarityLevel": 3
+                },
+                "description": null
+            },
+            "ownedCreatureID": "d1d84e431679453d9bebe51fc54b4670",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "f391c5062b414ac5b36a100a1b57be06",
+                "name": "Ostrich",
+                "rarity": {
+                    "rarityID": "655150a94e1d4236a084124234c57168",
+                    "rarityType": "Rare",
+                    "rarityLevel": 3
+                },
+                "description": null
+            },
+            "ownedCreatureID": "d41f8fa078f4424288f985742468ecc7",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "72622d6ed0bc4c528f8f8690e5afd74d",
+                "name": "Pigeon",
+                "rarity": {
+                    "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                    "rarityType": "Common",
+                    "rarityLevel": 1
+                },
+                "description": null
+            },
+            "ownedCreatureID": "e4332a4e4c8244a5977c6915b8ddf21c",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "4f8682ed54494d97a98800054186bdda",
+                "name": "Raven",
+                "rarity": {
+                    "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                    "rarityType": "Common",
+                    "rarityLevel": 1
+                },
+                "description": null
+            },
+            "ownedCreatureID": "f6ee65adeea048f6a2d0804a9a832469",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        },
+        {
+            "creature": {
+                "creatureID": "c64fe9873ce745f8a93069e637bf88aa",
+                "name": "Eagle",
+                "rarity": {
+                    "rarityID": "6cbce3350c46416d87bbbb5fec8e9012",
+                    "rarityType": "Legendary",
+                    "rarityLevel": 5
+                },
+                "description": null
+            },
+            "ownedCreatureID": "f8cf1ec40b484a73ae25b69f7470dc0b",
+            "inventoryID": "a4d321f525ca43438fad95e83aeb4fd5"
+        }
+    ]
+}

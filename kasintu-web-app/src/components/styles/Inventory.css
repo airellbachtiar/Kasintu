@@ -1,0 +1,40 @@
+.inventory-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+}
+
+.inventory-login-error a{
+    color: red;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.inventory-login-error a:hover{
+    color: orange;
+    transition: 300ms;
+}
+
+.inventory-login-error a:active{
+    color: yellow;
+}
+
+.inventory-no-creature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: #333;
+    font-size: 3rem;
+    font-weight: 500;
+}

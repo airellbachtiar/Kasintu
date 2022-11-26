@@ -1,0 +1,134 @@
+{
+    "creatures": [
+        {
+            "creatureID": "11db94ac7bb14d39ac8a8f8f7b8a36fc",
+            "name": "Cockatoo",
+            "rarity": {
+                "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                "rarityType": "Uncommon",
+                "rarityLevel": 2
+            },
+            "description": null
+        },
+        {
+            "creatureID": "4f8682ed54494d97a98800054186bdda",
+            "name": "Raven",
+            "rarity": {
+                "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                "rarityType": "Common",
+                "rarityLevel": 1
+            },
+            "description": null
+        },
+        {
+            "creatureID": "72622d6ed0bc4c528f8f8690e5afd74d",
+            "name": "Pigeon",
+            "rarity": {
+                "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                "rarityType": "Common",
+                "rarityLevel": 1
+            },
+            "description": null
+        },
+        {
+            "creatureID": "7cfb9bcb5ba34ce3bfed7f8b4dcc2ef2",
+            "name": "Chicken",
+            "rarity": {
+                "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                "rarityType": "Common",
+                "rarityLevel": 1
+            },
+            "description": "This is a chicken."
+        },
+        {
+            "creatureID": "8c6be0fe31e14e8ca2f821ad13246ab5",
+            "name": "Bird of Paradise",
+            "rarity": {
+                "rarityID": "1e2473bbf867434a9f78e1a22286f0cd",
+                "rarityType": "Epic",
+                "rarityLevel": 4
+            },
+            "description": ""
+        },
+        {
+            "creatureID": "a7f5b6dcab294856930dee133fb0c62b",
+            "name": "Duck",
+            "rarity": {
+                "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                "rarityType": "Common",
+                "rarityLevel": 1
+            },
+            "description": null
+        },
+        {
+            "creatureID": "b095370f21f343faa99a2ae991f07c88",
+            "name": "Owl",
+            "rarity": {
+                "rarityID": "655150a94e1d4236a084124234c57168",
+                "rarityType": "Rare",
+                "rarityLevel": 3
+            },
+            "description": null
+        },
+        {
+            "creatureID": "b63032a9c18f44c08e45159341ebe2a7",
+            "name": "Penguin",
+            "rarity": {
+                "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                "rarityType": "Uncommon",
+                "rarityLevel": 2
+            },
+            "description": null
+        },
+        {
+            "creatureID": "c11e3f5b89be41299c8d1d173928b10a",
+            "name": "Hummingbird",
+            "rarity": {
+                "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                "rarityType": "Uncommon",
+                "rarityLevel": 2
+            },
+            "description": null
+        },
+        {
+            "creatureID": "c64fe9873ce745f8a93069e637bf88aa",
+            "name": "Eagle",
+            "rarity": {
+                "rarityID": "6cbce3350c46416d87bbbb5fec8e9012",
+                "rarityType": "Legendary",
+                "rarityLevel": 5
+            },
+            "description": null
+        },
+        {
+            "creatureID": "cc463a07f4e842b9bbd1abfa182a6faf",
+            "name": "Blue Jay",
+            "rarity": {
+                "rarityID": "6592898342b74db0a3cfa400f44044e9",
+                "rarityType": "Uncommon",
+                "rarityLevel": 2
+            },
+            "description": null
+        },
+        {
+            "creatureID": "d218d2d592b540fe9a9ec11fa12a95bf",
+            "name": "Dove",
+            "rarity": {
+                "rarityID": "2d880efdfde64d038fbf3dba3b22a0d2",
+                "rarityType": "Common",
+                "rarityLevel": 1
+            },
+            "description": null
+        },
+        {
+            "creatureID": "f391c5062b414ac5b36a100a1b57be06",
+            "name": "Ostrich",
+            "rarity": {
+                "rarityID": "655150a94e1d4236a084124234c57168",
+                "rarityType": "Rare",
+                "rarityLevel": 3
+            },
+            "description": null
+        }
+    ]
+}
